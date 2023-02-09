@@ -36,6 +36,13 @@
         <version>1.9.4</version>
     </dependency>
   </dependencies>
+<distributionManagement>
+     <repository>
+     <id>suresh-local</id>
+     <name>mvn-suresh-release</name>
+<url>http://13.232.16.226:8082/artifactory/mvn-suresh-release</url>
+  </repository>
+</distributionManagement>	
   <build>
     <plugins>
       <plugin>
