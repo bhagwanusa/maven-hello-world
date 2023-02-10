@@ -42,7 +42,11 @@
      <name>mvn-suresh-release</name>
 <url>http://13.232.16.226:8082/artifactory/mvn-suresh-release</url>
   </repository>
-</distributionManagement>	
+</distributionManagement>
+	<scm>
+		<connection>git@github.com:bhagwanusa/maven-hello-world.git</connection>
+	</scm>	
+		
   <build>
     <plugins>
       <plugin>
